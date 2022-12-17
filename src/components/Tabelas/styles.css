@@ -1,0 +1,15 @@
+.tabela {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  height: 58px;
+  max-width: 950px;
+
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}

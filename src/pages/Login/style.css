@@ -1,0 +1,166 @@
+.container-login {
+
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../../assets/background1.png');
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 42px;
+  left: 100px;
+}
+
+.logo-container>h1 {
+  color: #FFFFFF;
+  margin-left: 8px;
+
+}
+
+a {
+  all: unset;
+}
+
+.container-cadastre {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  min-height: 30vh;
+  min-width: 30vw;
+  margin-right: 100px;
+
+}
+
+.container-cadastre>h1 {
+
+
+  height: 124px;
+  width: 600px;
+  left: 100px;
+  top: 327px;
+
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 62px;
+  text-align: left;
+  margin-bottom: 30px;
+
+  color: #FFFFFF;
+}
+
+.roxo {
+  color: #7978D9;
+}
+
+.container-cadastre>p {
+  height: 99px;
+  width: 600px;
+  left: 105px;
+  top: 484px;
+  border-radius: nullpx;
+
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  margin: 0;
+
+  color: #FFFFFF;
+
+}
+
+.btn-cadastro {
+  all: unset;
+
+  width: 284px;
+  height: 52px;
+  margin-top: 43px;
+  margin-right: 320px;
+  border-radius: 5px;
+  background: #7978D9;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+
+.card-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 535px;
+  width: 513px;
+  left: 805px;
+  top: 194px;
+  border-radius: 0px;
+
+  background-color: #FFFFFF;
+}
+
+h1 {
+  color: #7978D9;
+
+}
+
+p {
+  text-align: left;
+  margin-top: 10px;
+}
+
+input {
+  all: unset;
+
+  border: 1px solid #555555;
+  height: 63px;
+  width: 449px;
+  border-radius: 5px;
+  margin: 0;
+
+}
+
+.btn-entrar {
+  all: unset;
+
+  height: 53px;
+  width: 449px;
+  margin-top: 30px;
+  text-align: center;
+
+  border-radius: 5px;
+  background: #7978D9;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.link-login {
+  text-decoration: none;
+  color: #7B61FF;
+
+  margin-top: 10px;
+
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+
+}

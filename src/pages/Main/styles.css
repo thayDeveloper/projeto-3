@@ -1,0 +1,151 @@
+.container-main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: #E5E5E5;
+
+  border-radius: 60px 60px 0 0;
+
+  position: relative;
+}
+
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-width: 100vw;
+  height: 174px;
+  background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+}
+
+
+
+
+.container-logo {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.container-logo>h1 {
+  color: #FFFFFF;
+}
+
+
+
+.container-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+}
+
+.container-perfil>h1 {
+  color: #FFFFFF;
+
+  margin-left: 20px;
+
+}
+
+
+.sair {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.container-interno {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.container-table {
+  min-width: 50vw;
+}
+
+table {
+  min-width: 968px;
+  min-height: 100vh;
+  margin-top: 100px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+
+.btn-filtrar {
+  all: unset;
+
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-image: url('../../assets/icons8-filtro-48\ 1.png');
+  background-repeat: no-repeat;
+
+  background-position: 5px;
+
+  height: 30px;
+  width: 90px;
+  margin-left: 15px;
+
+}
+
+.heder-tabela {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 58px;
+  max-width: 950px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+
+.data-tabela>tr {
+  width: 100px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+  background-image: url('../../assets/data.png');
+  background-repeat: no-repeat;
+  background-position: 75px;
+
+  background-position-y: center;
+}
+
+
+.Valor-roxo {
+  color: #7B61FF;
+}
+
+.Valor-amarelho {
+  color: #FA8C10;
+}

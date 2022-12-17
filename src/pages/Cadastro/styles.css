@@ -1,0 +1,108 @@
+.container-cadastro {
+
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../../assets/background1.png');
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 42px;
+  left: 100px;
+}
+
+.logo-container>h1 {
+  color: #FFFFFF;
+  margin-left: 8px;
+
+}
+
+.card-cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+  height: 781px;
+  width: 513px;
+  border-radius: 0px;
+
+  background-color: #FFFFFF;
+}
+
+
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.btn-cadastrar {
+  all: unset;
+
+  width: 284px;
+  height: 50px;
+  margin-top: 43px;
+
+  border-radius: 5px;
+  text-align: center;
+
+
+  background: #7978D9;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+
+.container-cadastro>h1 {
+  color: #7978D9;
+
+}
+
+p {
+  text-align: left;
+  margin-top: 10px;
+  height: 22px;
+  width: 197px;
+}
+
+input {
+  all: unset;
+
+  border: 1px solid #555555;
+  height: 63px;
+  width: 449px;
+
+  border-radius: 5px;
+}
+
+
+
+.link-login {
+  text-decoration: none;
+  color: #7B61FF;
+
+  margin-top: 10px;
+
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+
+}

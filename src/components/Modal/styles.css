@@ -1,0 +1,118 @@
+.container-modal {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(61, 61, 61, 0.48);
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-fechar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.titulo-fechar>h1 {
+  width: 335px;
+  height: 43px;
+  left: 479px;
+  top: 140px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+
+
+  color: #000000;
+
+}
+
+.titulo-fechar>span {
+  height: 26.382457281637766px;
+  width: 26.58007767010134px;
+  left: 924px;
+  top: 164.79498291015625px;
+  border-radius: 0px;
+  font-size: large;
+  cursor: pointer;
+
+}
+
+
+
+
+.modal {
+  position: relative;
+
+  height: 879px;
+  width: 611px;
+
+
+  background: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  all: unset;
+  min-height: 64px;
+  width: 451px;
+  border-radius: 5px;
+
+  background: #FFFFFF;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  align-items: center;
+  background-image: url('../../assets/seta.png');
+  background-repeat: no-repeat;
+  background-position: top 11px right 11px;
+  cursor: pointer;
+}
+
+.btn-entrada {
+  all: unset;
+
+  text-align: center;
+  ;
+  height: 60px;
+  width: 225px;
+  left: 0px;
+  top: 0px;
+  background: #3A9FF1;
+  border-radius: 10px 0px 0px 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+
+.btn-saidas {
+  all: unset;
+  text-align: center;
+  height: 60px;
+  width: 225px;
+  left: 0px;
+  top: 0px;
+  background: #B9B9B9;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  color: #FFFFFF;
+
+}
+
+p {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 5px;
+  line-height: 28px;
+
+  color: #484848;
+}
